@@ -1,0 +1,30 @@
+.root {
+  @apply relative min-h-screen  border-r border-gray-300 p-7 transition-all duration-500;
+}
+.app-l-menu {
+  @apply mt-12;
+}
+.app-l-menu .app-l-menu__item {
+  @apply my-8;
+}
+.app-l-menu .app-l-menu__item .app-l-menu__item-link {
+  @apply flex cursor-pointer items-center justify-between font-medium;
+  @apply transition-transform delay-150 duration-300 ease-in-out hover:scale-110 hover:opacity-50;
+}
+.app-l-menu
+  .app-l-menu__item
+  .app-l-menu__item-link.app-l-menu__item-link--active {
+  @apply text-blue-600;
+}
+.app-l-menu
+  .app-l-menu__item
+  .app-l-menu__item-link.app-l-menu__item-link--active
+  svg {
+  @apply stroke-blue-600;
+}
+.app-l-menu .app-l-menu__item .app-l-menu__item-link .app-l-menu__title {
+  @apply flex items-center;
+}
+.app-l-menu .app-l-menu__item .app-l-menu__item-link .app-l-menu__icon {
+  @apply mr-3;
+}

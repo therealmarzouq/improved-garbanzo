@@ -1,0 +1,6 @@
+.root {
+  @apply flex h-full w-full flex-row;
+}
+.body {
+  @apply h-screen w-full overflow-y-auto px-12 py-8;
+}

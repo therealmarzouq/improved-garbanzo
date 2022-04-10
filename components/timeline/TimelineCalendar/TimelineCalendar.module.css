@@ -1,0 +1,4 @@
+.root {
+  @apply relative h-full w-full;
+  /* height: 600px; */
+}
